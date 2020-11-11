@@ -1,0 +1,10 @@
+/* ========================================
+PORTFOLIO CONTENT STYLING
+======================================== */
+.portfolio-img {
+  width: 100%;
+}
+
+.card-img-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}

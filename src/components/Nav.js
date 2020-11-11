@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./Nav.css";
 
 function Nav() {
@@ -23,20 +24,21 @@ function Nav() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
           {/* <!-- Active Nav Item (Current Page) --> */}
+          {/* TODO: Format using "active" class for active page */}
           <li className="nav-item">
-            <a className="nav-link" href="google.com">
+            <Link className="nav-link" to="/contact">
               CONTACT
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="google.com">
+            <Link className="nav-link" to="/portfolio">
               PORTFOLIO
-            </a>
+            </Link>
           </li>
-          <li className="nav-item active">
-            <a className="nav-link" href="google.com">
-              <span className="sr-only">(current)</span>ABOUT
-            </a>
+          <li className="nav-item">
+            <Link className="nav-link" to="/">
+              ABOUT
+            </Link>
           </li>
         </ul>
       </div>

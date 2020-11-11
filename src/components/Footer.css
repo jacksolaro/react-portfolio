@@ -1,0 +1,17 @@
+/* ========================================
+FOOTER STYLING
+======================================== */
+
+footer {
+  position: absolute;
+  height: 6vh;
+  width: 100%;
+  bottom: 0;
+  color: white;
+}
+
+.footer-accent {
+  background: linear-gradient(90deg, red, orange, purple);
+  height: 1vh;
+  margin-bottom: 1vh;
+}

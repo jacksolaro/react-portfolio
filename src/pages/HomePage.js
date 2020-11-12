@@ -45,27 +45,6 @@ function Home() {
                 fashion and lifestyle to conceptual and surrealistic
                 portraiture. I love to take an idea from a concept to reality!
               </p>
-              <h3>My Socials & Resume</h3>
-              <a
-                href="https://github.com/jacksolaro"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <i className="fab fa-github fa-3x"></i>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/jacksolaro/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <i className="fab fa-linkedin fa-3x"></i>
-              </a>
-              <p>
-                Download my Resume{" "}
-                <a target="_blank" href="Assets/files/jack-solaro-resume.pdf">
-                  HERE
-                </a>
-              </p>
               <br />
               <a href="portfolio.html" className="btn btn-dark">
                 Portfolio

@@ -1,14 +1,15 @@
 /* ========================================
 PORTFOLIO CONTENT STYLING
 ======================================== */
+
+.portfolioBtn:hover {
+  color: white;
+}
+
 .portfolio-img {
   width: 100%;
 }
 
-.card-img-overlay {
-  background: rgba(0, 0, 0, 0.8);
-}
-
-.card {
-  box-shadow: 5px 10px 8px black;
+.card-img-top {
+  width: 100%;
 }

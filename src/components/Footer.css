@@ -7,7 +7,9 @@ footer {
   height: 6vh;
   width: 100%;
   bottom: 0;
-  color: white;
+  color: black;
+  background-color: white;
+  text-align: center;
 }
 
 .footer-accent {

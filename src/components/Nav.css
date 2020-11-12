@@ -1,12 +1,56 @@
 /* ========================================
 NAV STYLING
 ======================================== */
-.navbar-custom {
-  background-color: #454545;
-  /* background-image: url("assets/images/26298432627_592cdc0d99_o.jpg"); */
+
+.nav {
+  /* position: fixed; */
+  /* top: 0; */
+  width: 100%;
+  padding: 10px;
+  height: 45px;
+  z-index: 1;
+
+  display: flex;
+  justify-content: space-between;
+
+  background-color: white;
+
+  /* Animations */
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
 }
 
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-  color: white;
+.nav_black {
+  background-color: #111;
 }
+
+.nav-logo {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+
+li {
+  float: right;
+  margin-right: 15px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+/* li a:hover {
+    background-color: #111;
+} */

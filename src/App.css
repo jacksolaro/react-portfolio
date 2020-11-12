@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+/* ========================================
+GLOBAL STYLING
+======================================== */
+
+* {
+  font-family: "Kanit", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: #08a4bd;
+}
+a:hover {
+  color: #fb3640;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Headers */
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: bolder;
+  font-size: 64px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+  font-family: "Kanit", sans-serif;
+  font-weight: bolder;
+  font-size: 48px;
 }
 
-.App-link {
-  color: #61dafb;
+/* -- BACKGROUND STYLES -- */
+.bg-custom-pink {
+  background-color: #f06c9b;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-custom-orange {
+  background-color: #f6ae2d;
+}
+.bg-custom-green {
+  background-color: #60a561;
+}
+.bg-custom-blue {
+  background-color: #62bec1;
+}
+.bg-custom-pink {
+  background-color: #f06c9b;
+}
+.bg-custom-yellow {
+  background-color: #fff275;
+}
+.bg-custom-onyx {
+  background-color: #444444;
 }

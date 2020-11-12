@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "../components/Project";
 import projectsArr from "../utils/projects.json";
+import "../App.css";
 
 function PortfolioPage() {
   return (
@@ -14,9 +15,7 @@ function PortfolioPage() {
       </div>
       <div className="row">
         {projectsArr.map((project) => (
-          <div className="col-md-6 col-xs-12 p-3">
-            <Project key={project.id} projectObj={project}></Project>
-          </div>
+          <Project key={project.id} projectObj={project}></Project>
         ))}
       </div>
     </div>

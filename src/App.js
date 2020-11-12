@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import PortfolioPage from "./pages/PortfolioPage";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   function Home() {
@@ -16,7 +17,7 @@ function App() {
   }
 
   function Contact() {
-    return <h2>Contact</h2>;
+    return <ContactPage></ContactPage>;
   }
 
   return (

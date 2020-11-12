@@ -1,15 +1,12 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import Box from "@material-ui/core/Box";
 import "../App.css";
-import { Typography } from "@material-ui/core";
 
 function Home() {
   return (
     <div>
-      <Grid container direction="row" justify="center" alignItems="center">
-        {/* <!-- HOME PAGE --> */}
-        <div className="">
+      <div className="jumbotron jumbotron-fluid bg-white">
+        <div className="container">
           <h1>
             <strong>
               Hi - I'm <span className="bg-warning text-black"> JACK </span>
@@ -17,10 +14,10 @@ function Home() {
           </h1>
           <p className="lead">It's nice to meet you!</p>
         </div>
-      </Grid>
+      </div>
 
       <div className="container">
-        <div className="card">
+        <div className="card mb-2">
           <Grid container spacing={0} justify="center" alignItems="center">
             <Grid item xs={12} align="center">
               <h2>
@@ -62,6 +59,7 @@ function Home() {
             direction="row"
             justify="space-around"
             alignItems="center"
+            spacing={3}
           >
             <Grid item xs={12} align="center">
               <div>
@@ -80,8 +78,9 @@ function Home() {
                 </p>
               </div>
             </Grid>
-            <Grid item xs={12} sm={2} align="center">
-              <div className="col-md border rounded pt-4 pr-3 pl-3 text-center">
+
+            <Grid item xs={12} sm={6} md={4} align="center">
+              <div className="strength-card">
                 <i className="fas fa-check-double fa-5x"></i>
                 <h5 className="strengthTitle">1. ACHIEVER</h5>
                 <p className="text-left">
@@ -90,8 +89,8 @@ function Home() {
                 </p>
               </div>
             </Grid>
-            <Grid item xs={12} sm={2} align="center">
-              <div className="col-md border rounded pt-4 pr-3 pl-3 text-center b">
+            <Grid item xs={12} sm={6} md={4} align="center">
+              <div className="strength-card">
                 <i className="fas fa-lightbulb fa-5x"></i>
                 <h5 className="strengthTitle">2. IDEATION</h5>
                 <p className="text-left">
@@ -100,8 +99,8 @@ function Home() {
                 </p>
               </div>
             </Grid>
-            <Grid item xs={12} sm={2} align="center">
-              <div className="col-md border rounded pt-4 pr-3 pl-3 text-center ">
+            <Grid item xs={12} sm={6} md={4} align="center">
+              <div className="strength-card">
                 <i className="fas fa-chess-pawn fa-5x"></i>
                 <h5 className="strengthTitle">3. STRATEGIC</h5>
                 <p className="text-left">
@@ -110,8 +109,8 @@ function Home() {
                 </p>
               </div>
             </Grid>
-            <Grid item xs={12} sm={2} align="center">
-              <div className="col-md border rounded pt-4 pr-3 pl-3 text-center b">
+            <Grid item xs={12} sm={6} md={4} align="center">
+              <div className="strength-card">
                 <i className="fas fa-users fa-5x"></i>
                 <h5 className="strengthTitle">4. INDIVIDUALIZATION</h5>
                 <p className="text-left">
@@ -121,8 +120,8 @@ function Home() {
                 </p>
               </div>
             </Grid>
-            <Grid item xs={12} sm={2} align="center">
-              <div className="col-md border rounded pt-4 pr-3 pl-3 text-center">
+            <Grid item xs={12} sm={6} md={4} align="center">
+              <div className="strength-card">
                 <i className="fas fa-wrench fa-5x"></i>
                 <h5 className="strengthTitle">5. RESTORATIVE</h5>
                 <p className="text-left">

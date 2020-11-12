@@ -1,0 +1,57 @@
+[
+    {
+        "id": "0",
+        "image": "/images/portfolio_personify_app.jpg",
+        "title": "Personify",
+        "description": "A full stack Personality Quiz builder and library with CRUD functionality and user authentication.",
+        "type": "Group",
+        "contribution": "Front End Controller Logic, Handlebars, CSS (Bulma), UX, Logo",
+        "technologyUsed": "HTML, CSS (Bulma), handlebars, Javascript, jQuery, Express, node.js, mySQL, sequelize, Heroku, bcrypt",
+        "repo": "https://github.com/jacksolaro/Personality-Quiz",
+        "deployed": "https://personify-personality-quiz.herokuapp.com/"
+    },
+    {
+        "id": "1",
+        "image": "/images/portfolio_city_scoop_app.png",
+        "title": "City Scoop",
+        "description": "Looking to get data on a major metropolital city? Look no further, get the scoop with City Scoop! City Scoop is an application built to retrieve data from APIs on city inputs to provide the user with quick and easy access to data.",
+        "type": "Group",
+        "contribution": "CSS (Bootstrap), UX, Logo",
+        "technologyUsed": "HTML, CSS (Bootstrap), Javascript, APIs",
+        "repo": "https://github.com/jacksolaro/CityScoop",
+        "deployed": "https://jacksolaro.github.io/CityScoop/"
+    },
+    {
+        "id": "2",
+        "image": "/images/portfolio_trivia_app.png",
+        "title": "Trivia Application",
+        "description": "Try out this trivia application that I made from scratch using Javascript and Bootstrap!",
+        "type": "Individual",
+        "contribution": "All",
+        "technologyUsed": "HTML, CSS, Bootstrap, Javascript, jQuery",
+        "repo": "https://github.com/jacksolaro/trivia",
+        "deployed": "https://jacksolaro.github.io/trivia/"
+    },
+    {
+        "id": "3",
+        "image": "/images/portfolio_planner_app.png",
+        "title": "Planner Application",
+        "description": "What's the plan? Find out in this application that I built using jquery and Bootstrap!",
+        "type": "Assignment",
+        "contribution": "Logic",
+        "technologyUsed": "HTML, CSS, Javascript, jQuery",
+        "repo": "https://github.com/jacksolaro/planner-app",
+        "deployed": "https://jacksolaro.github.io/planner-app/"
+    },
+    {
+        "id": "4",
+        "image": "/images/portfolio_jacksburgers.jpg",
+        "title": "Jack's Burgers",
+        "description": "A fully functioning CRUD application, deployed on Heroku and using a mySQL database. Built with node packages including express and mysql!",
+        "type": "Individual",
+        "contribution": "All",
+        "technologyUsed": "HTML, CSS, Javascript, jQuery, node.js, Express, mySQL, sequelize, Heroku",
+        "repo": "https://github.com/jacksolaro/burger-crud",
+        "deployed": "https://jacksburgers.herokuapp.com/"
+    }
+]

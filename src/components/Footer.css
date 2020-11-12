@@ -3,7 +3,7 @@ FOOTER STYLING
 ======================================== */
 
 footer {
-  position: absolute;
+  margin-top: 25px;
   height: 6vh;
   width: 100%;
   bottom: 0;

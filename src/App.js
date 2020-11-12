@@ -3,15 +3,16 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import Portfolio from "./components/Portfolio";
+import HomePage from "./pages/HomePage";
+import PortfolioPage from "./pages/PortfolioPage";
 
 function App() {
   function Home() {
-    return <h2>Home</h2>;
+    return <HomePage></HomePage>;
   }
 
   function Portfolio() {
-    return <h2>Portfolio</h2>;
+    return <PortfolioPage></PortfolioPage>;
   }
 
   function Contact() {
@@ -46,6 +47,10 @@ function App() {
             <Home />
           </Route>
         </Switch>
+
+        <footer>
+          <Footer></Footer>
+        </footer>
       </div>
     </Router>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Project.css";
-import "../App.css";
+import "../../App.css";
 import { Grid, Button } from "@material-ui/core/";
 
 function Portfolio({ projectObj }) {

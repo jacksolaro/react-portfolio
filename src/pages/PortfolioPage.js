@@ -1,5 +1,5 @@
 import React from "react";
-import Project from "../components/Project";
+import Project from "../components/Project/Project";
 import projectsArr from "../utils/projects.json";
 import "../App.css";
 import Grid from "@material-ui/core/Grid";

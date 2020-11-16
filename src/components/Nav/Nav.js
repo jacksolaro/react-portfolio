@@ -1,27 +1,34 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import MenuIcon from "@material-ui/icons/Menu";
 import "./Nav.css";
 
 function Nav() {
-  const [show, handleShow] = useState(false);
+  // const [show, handleShow] = useState(false);
+  const [expandNav, handleExpandNav] = useState(false);
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
-        handleShow(true);
-      } else handleShow(false);
-    });
-    return () => {
-      window.removeEventListener("scroll");
-    };
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("click", () => {
+  //     if (window.scrollY > 100) {
+  //       handleShow(true);
+  //     } else handleShow(false);
+  //   });
+  //   return () => {
+  //     window.removeEventListener("scroll");
+  //   };
+  // }, []);
+
+  const openNav = () => {
+    handleExpandNav(!expandNav);
+  };
 
   return (
     <nav className="">
-      <div className={`nav ${show && "nav_black"}`}>
-        <a className="nav-logo" href="index.html">
+      <div className={`nav ${expandNav && "responsive"}`}>
+        <Link className="nav-logo" to="/">
           JACK SOLARO
-        </a>
+        </Link>
+        <MenuIcon className="nav-hamburger" onClick={openNav}></MenuIcon>
         <ul>
           <li className="nav-item">
             <Link className="nav-link" to="/">

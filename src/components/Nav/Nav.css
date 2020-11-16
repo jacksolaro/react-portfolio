@@ -1,33 +1,33 @@
 /* ========================================
 NAV STYLING
 ======================================== */
+/* * {
+  border: 1px solid black;
+} */
 
 .nav {
-  /* position: fixed; */
-  /* top: 0; */
   width: 100%;
   padding: 10px;
   height: 45px;
   z-index: 1;
-
   display: flex;
   justify-content: space-between;
-
   background-color: transparent;
-
-  /* Animations */
-  /* transition-timing-function: ease-in;
-  transition: all 0.5s; */
 }
 
-/* .nav_black {
-  background-color: #111;
-} */
+.nav-hamburger {
+  display: none;
+}
 
 .nav-logo {
   display: block;
   color: black;
   text-align: center;
+  text-decoration: none;
+  padding: 7.5px;
+}
+
+.nav-logo:hover {
   text-decoration: none;
 }
 
@@ -35,7 +35,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  /* overflow: hidden; */
 }
 
 li {
@@ -50,7 +49,40 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-/* li a:hover {
-    background-color: #111;
-} */
+.active {
+  display: block;
+}
+
+/* MEDIA QUERIES */
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .nav-item {
+    display: none;
+  }
+  .nav-hamburger {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .nav.responsive {
+    position: absolute;
+    height: 150px;
+  }
+  .nav.responsive .nav-hamburger {
+    position: relative;
+    right: 0px;
+  }
+  .nav.responsive .nav-item {
+    /* position: relative; */
+    /* top: 30px; */
+    background-color: white;
+    border: 1px solid black;
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

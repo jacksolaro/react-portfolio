@@ -1,4 +1,13 @@
+.bio__container {
+  padding: 30px 50px;
+}
+
 .bio__details {
   width: 100%;
-  background-color: salmon;
+  padding: 10%;
+  font-size: 1.5rem;
+}
+
+.bio__portrait {
+  width: 75%;
 }

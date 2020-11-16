@@ -9,7 +9,7 @@ function Home() {
     <div>
       <Jumbotron></Jumbotron>
 
-      <div className="container">
+      <div className="">
         <AboutMeCard></AboutMeCard>
         <div className="card">
           <Grid

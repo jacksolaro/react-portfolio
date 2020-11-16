@@ -1,10 +1,11 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import "./AboutMeCard.css";
+import headshot from "../../images/bio_pic.jpg";
 
 function AboutMeCard() {
   return (
-    <div className="card mb-2">
+    <div className="bio__container">
       <Grid container spacing={0} justify="space-around" alignItems="center">
         <Grid item xs={12} align="center">
           <h2>
@@ -13,7 +14,11 @@ function AboutMeCard() {
           <hr />
         </Grid>
         <Grid item sm={12} md={4} align="center">
-          <img src="/images/bio_pic.jpg" alt="" className="rounded" />
+          <img
+            src={headshot}
+            alt="jack headshot"
+            className="bio__portrait rounded"
+          />
         </Grid>
         <Grid item sm={12} md={8}>
           <div className="bio__details">

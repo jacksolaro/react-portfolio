@@ -1,17 +1,18 @@
 import React from "react";
 import "./Jumbotron.css";
 
-function Jumbotron() {
+function Jumbotron(props) {
   return (
     <div>
-      <div className="jumbotron__main">
+      <div
+        className="jumbotron__main"
+        style={{ backgroundImage: `url(${props.image})` }}
+      >
         <div className="jumbotron__content">
           <h1 className="jumbotron__title">
-            <strong>
-              Hi - I'm <span className=""> JACK </span>
-            </strong>
+            <strong>{props.headline}</strong>
           </h1>
-          <p className="jumbotron__subtitle">It's nice to meet you!</p>
+          <p className="jumbotron__subtitle">{props.subtitle}</p>
         </div>
       </div>
     </div>

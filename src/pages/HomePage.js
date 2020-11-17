@@ -3,11 +3,17 @@ import "../App.css";
 import AboutMeCard from "../components/AboutMeCard/AboutMeCard";
 import Jumbotron from "../components/Jumbotron/Jumbotron";
 import StrengthSection from "../components/StrengthSection/StrengthSection";
+import home_jumbo from "../images/home_jumbo.jpg";
 
 function Home() {
   return (
     <div>
-      <Jumbotron></Jumbotron>
+      <Jumbotron
+        key="0"
+        image={home_jumbo}
+        headline="Hi - I'm  JACK"
+        subtitle="It's nice to meet you!"
+      ></Jumbotron>
       <AboutMeCard></AboutMeCard>
       <StrengthSection></StrengthSection>
     </div>

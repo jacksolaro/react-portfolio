@@ -1,0 +1,28 @@
+.card {
+  width: 90%;
+  max-width: 500px;
+  padding: 40px 25px;
+}
+
+.strength__number__div {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+
+  background: #aaa;
+  border: 2px solid #666;
+  color: #666;
+  text-align: center;
+
+  font-size: 32px Arial;
+}
+
+.strength__name {
+  font-size: 24px;
+  padding-top: 25px;
+}
+
+.strength__description {
+  text-align: left;
+}

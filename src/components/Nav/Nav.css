@@ -1,18 +1,16 @@
 /* ========================================
 NAV STYLING
 ======================================== */
-/* * {
-  border: 1px solid black;
-} */
 
 .nav {
   width: 100%;
   padding: 10px;
   height: 45px;
-  z-index: 1;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   background-color: transparent;
+  position: absolute;
 }
 
 .nav-hamburger {
@@ -21,7 +19,7 @@ NAV STYLING
 
 .nav-logo {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   text-decoration: none;
   padding: 7.5px;
@@ -44,7 +42,7 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   text-decoration: none;
 }

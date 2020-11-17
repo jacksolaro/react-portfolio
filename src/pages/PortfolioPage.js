@@ -6,7 +6,6 @@ import Grid from "@material-ui/core/Grid";
 
 function PortfolioPage() {
   return (
-    //   TODO: Get shadow to work
     <div className="container">
       <div className="card">
         <h1 className="">MY PORTFOLIO</h1>

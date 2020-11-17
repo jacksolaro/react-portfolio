@@ -36,10 +36,10 @@ function AboutMeCard() {
               I love to take an idea from a concept to reality!
             </p>
             <br />
-            <a href="portfolio.html" className="btn btn-dark m-4">
+            <a href="/portfolio" className="btn btn-dark m-4">
               Portfolio
             </a>
-            <a href="contact.html" className="btn btn-dark">
+            <a href="/contact" className="btn btn-dark">
               Contact Me
             </a>
           </div>

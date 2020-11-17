@@ -28,7 +28,7 @@ function Nav() {
         <Link className="nav-logo" to="/">
           JACK SOLARO
         </Link>
-        <MenuIcon className="nav-hamburger" onClick={openNav}></MenuIcon>
+        {/* <MenuIcon className="nav-hamburger" onClick={openNav}></MenuIcon> */}
         <ul>
           <li className="nav-item">
             <Link className="nav-link" to="/">

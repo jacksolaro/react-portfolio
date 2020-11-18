@@ -18,20 +18,7 @@ GLOBAL STYLING
   font-family: "Kanit", sans-serif;
 }
 
-/* html {
-  min-height: 100%;
-  position: relative;
-  display: block;
-}
-
-body {
-  /* background: url("Assets/images/joanna-kosinska-mjC9apK53a8-unsplash.jpg"); */
-/* background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-margin-bottom: 5vh; */
-/* } */
-*/ a {
+a {
   color: #08a4bd;
 }
 a:hover {

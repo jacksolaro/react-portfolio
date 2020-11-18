@@ -1,7 +1,7 @@
 [
     {
         "id": "0",
-        "image": "/images/portfolio_personify_app.jpg",
+        "image": "/portfolio_images/portfolio_personify_app.jpg",
         "title": "Personify",
         "description": "A full stack Personality Quiz builder and library with CRUD functionality and user authentication.",
         "type": "Group",
@@ -12,7 +12,7 @@
     },
     {
         "id": "1",
-        "image": "/images/portfolio_city_scoop_app.png",
+        "image": "/portfolio_images/portfolio_city_scoop_app.png",
         "title": "City Scoop",
         "description": "Looking to get data on a major metropolital city? Look no further, get the scoop with City Scoop! City Scoop is an application built to retrieve data from APIs on city inputs to provide the user with quick and easy access to data.",
         "type": "Group",
@@ -23,7 +23,7 @@
     },
     {
         "id": "2",
-        "image": "/images/portfolio_trivia_app.png",
+        "image": "/portfolio_images/portfolio_trivia_app.png",
         "title": "Trivia Application",
         "description": "Try out this trivia application that I made from scratch using Javascript and Bootstrap!",
         "type": "Individual",
@@ -34,7 +34,7 @@
     },
     {
         "id": "3",
-        "image": "/images/portfolio_planner_app.png",
+        "image": "/portfolio_images/portfolio_planner_app.png",
         "title": "Planner Application",
         "description": "What's the plan? Find out in this application that I built using jquery and Bootstrap!",
         "type": "Assignment",
@@ -45,7 +45,7 @@
     },
     {
         "id": "4",
-        "image": "/images/portfolio_jacksburgers.jpg",
+        "image": "/portfolio_images/portfolio_jacksburgers.jpg",
         "title": "Jack's Burgers",
         "description": "A fully functioning CRUD application, deployed on Heroku and using a mySQL database. Built with node packages including express and mysql!",
         "type": "Individual",

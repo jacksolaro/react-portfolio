@@ -21,14 +21,6 @@ function App() {
   }
 
   return (
-    // <div className="">
-    //   <header className="">
-    //     <Nav></Nav>
-    //     <Portfolio></Portfolio>
-    //     <Footer></Footer>
-    //   </header>
-    // </div>
-
     <Router>
       <div>
         <nav>

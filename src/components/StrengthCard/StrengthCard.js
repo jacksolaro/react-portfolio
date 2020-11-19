@@ -5,8 +5,8 @@ function StrengthCard(props) {
   return (
     <div className="card strength__card">
       {/* <div className="strength__number__div">1</div> */}
-      <div className="strength__icon">
-        <i className={`fas fa-${props.icon} fa-7x`}></i>
+      <div className="strength__icon__wrapper">
+        <i className={`fas fa-${props.icon} fa-7x strength__icon`}></i>
       </div>
       <div className="strength__name">
         <p>{props.strengthName}</p>

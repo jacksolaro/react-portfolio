@@ -23,6 +23,18 @@
   padding-top: 25px;
 }
 
+.strength__icon {
+  background: -webkit-linear-gradient(
+    339deg,
+    rgba(255, 74, 118, 1) 0%,
+    rgba(235, 126, 62, 1) 50%,
+    rgba(245, 51, 78, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: none;
+  -webkit-text-fill-color: transparent;
+}
+
 .strength__description {
   text-align: left;
 }

@@ -13,7 +13,7 @@ function AboutMeCard() {
           </h2>
           <hr />
         </Grid>
-        <Grid item sm={12} md={4} align="center">
+        <Grid item xs={12} md={4} align="center">
           <img
             src={headshot}
             alt="jack headshot"
@@ -29,19 +29,22 @@ function AboutMeCard() {
               the University of Washington. I take pride in developing creative
               solutions to complex problems!
             </p>
-            <h3>Outside of Work: </h3>
+            <h3>Personally: </h3>
             <p>
               Outside of work, I am an avid photographer. My work varies from
               fashion and lifestyle to conceptual and surrealistic portraiture.
               I love to take an idea from a concept to reality!
             </p>
             <br />
-            <a href="/portfolio" className="btn btn-dark m-4">
-              Portfolio
-            </a>
-            <a href="/contact" className="btn btn-dark">
-              Contact Me
-            </a>
+            <div className="about__buttons__block">
+              <a href="/portfolio" className="btn btn-dark mr-1">
+                Portfolio
+              </a>
+
+              <a href="/contact" className="btn btn-dark ml-1">
+                Contact Me
+              </a>
+            </div>
           </div>
         </Grid>
       </Grid>

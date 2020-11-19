@@ -27,6 +27,7 @@ NAV STYLING
 
 .nav-logo:hover {
   text-decoration: none;
+  color: rgba(235, 126, 62, 1);
 }
 
 ul {
@@ -43,6 +44,13 @@ li {
 li a {
   display: block;
   color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  display: block;
+  color: rgba(235, 126, 62, 1);
   text-align: center;
   text-decoration: none;
 }

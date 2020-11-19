@@ -1,5 +1,5 @@
 .bio__container {
-  padding: 30px 50px;
+  padding: 30px 10px;
   margin-bottom: 50px;
 }
 
@@ -11,4 +11,51 @@
 
 .bio__portrait {
   width: 75%;
+}
+
+.about__buttons__block {
+  margin: auto auto;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .bio__container {
+    padding: 30px 20px;
+    margin-bottom: 50px;
+  }
+  .bio__details {
+    width: 100%;
+    padding: 5%;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .bio__container {
+    padding: 30px 30px;
+    margin-bottom: 50px;
+  }
+  .bio__details {
+    width: 100%;
+    padding: 10%;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .bio__container {
+    padding: 30px 50px;
+    margin-bottom: 50px;
+  }
+  .bio__details {
+    width: 100%;
+    padding: 10%;
+    font-size: 1.5rem;
+  }
+  .about__buttons__block {
+    margin: auto auto;
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
 }

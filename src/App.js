@@ -30,13 +30,13 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
       renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/portfolio">
+          <Route path={`${process.env.PUBLIC_URL}/portfolio`}>
             <Portfolio />
           </Route>
-          <Route path="/contact">
+          <Route path={`${process.env.PUBLIC_URL}/contact`}>
             <Contact />
           </Route>
-          <Route path="/">
+          <Route path={`${process.env.PUBLIC_URL}/`}>
             <Home />
           </Route>
           <Route component={Home} />

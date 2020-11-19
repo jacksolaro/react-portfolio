@@ -10,7 +10,7 @@ a {
   color: #08a4bd;
 }
 a:hover {
-  color: #fb3640;
+  color: rgba(235, 126, 62, 1);
 }
 
 /* Headers */

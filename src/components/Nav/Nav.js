@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import MenuIcon from "@material-ui/icons/Menu";
+import Drawer from "@material-ui/core/SwipeableDrawer";
 import "./Nav.css";
 
 function Nav() {
-  // const [show, handleShow] = useState(false);
-  const [expandNav, handleExpandNav] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
 
   // useEffect(() => {
   //   window.addEventListener("click", () => {
@@ -18,16 +18,47 @@ function Nav() {
   //   };
   // }, []);
 
-  const openNav = () => {
-    handleExpandNav(!expandNav);
+  const toggleDrawer = (anchor, open) => (event) => {
+    if (typeof event === "undefined") {
+      return;
+    }
+    if (
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
+    ) {
+      return;
+    }
+
+    setIsExpanded(!isExpanded);
   };
 
   return (
     <nav className="">
-      <div className={`nav ${expandNav && "responsive"}`}>
+      <div className={`nav`}>
         <Link className="nav-logo" to="/">
           JACK SOLARO
         </Link>
+
+        <Drawer
+          anchor="right"
+          open={isExpanded}
+          onClose={toggleDrawer("right", false)}
+        >
+          <div className="drawer">
+            <ul className="drawer__list">
+              <Link to="/" className="drawer__item">
+                About
+              </Link>
+              <Link to="/portfolio" className="drawer__item">
+                Portfolio
+              </Link>
+              <Link to="/contact" className="drawer__item">
+                Contact
+              </Link>
+            </ul>
+          </div>
+        </Drawer>
+
         {/* <MenuIcon className="nav-hamburger" onClick={openNav}></MenuIcon> */}
         <ul>
           <li className="nav-item">
@@ -46,6 +77,12 @@ function Nav() {
             </Link>
           </li>
         </ul>
+        <div className="nav__hamburger">
+          <MenuIcon
+            onClick={toggleDrawer("right", true)}
+            style={{ color: "#FFFFFF" }}
+          />
+        </div>
       </div>
     </nav>
   );

@@ -15,21 +15,21 @@ function PortfolioPage() {
         headline="My Portfolio"
         subtitle="A sample of my projects"
       ></Jumbotron>
-      <div className="container portfolio__container">
-        <div className="card mt-5 mb-5">
-          <Grid
-            container
-            direction="row"
-            justify="center"
-            alignItems="center"
-            spacing={3}
-          >
-            {projectsArr.map((project) => (
-              <Project key={project.id} projectObj={project}></Project>
-            ))}
+      {/* <div className=" portfolio__container"> */}
+      {/* <div className="card mt-5 mb-5"> */}
+      <Grid container direction="row" justify="center" alignItems="center">
+        {projectsArr.map((project, index) => (
+          <Grid item xs={12} sm={12} align="">
+            <Project
+              key={project.id}
+              projectObj={project}
+              index={index}
+            ></Project>
           </Grid>
-        </div>
-      </div>
+        ))}
+      </Grid>
+      {/* </div> */}
+      {/* </div> */}
     </div>
   );
 }

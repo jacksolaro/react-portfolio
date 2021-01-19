@@ -1,0 +1,13 @@
+/* ========================================
+PORTFOLIO CONTENT STYLING
+======================================== */
+
+.ProjectCard__Image {
+  width: 100%;
+}
+
+.ProjectCard__Card {
+  object-fit: cover;
+  width: 100%;
+  overflow: hidden;
+}

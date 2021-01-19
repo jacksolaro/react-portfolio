@@ -1,20 +1,18 @@
 import React from "react";
-import "./Project.css";
+import "./ProjectCard.css";
 import "../../App.css";
 import { Grid, Button } from "@material-ui/core/";
 
-function Portfolio(props) {
+function ProjectCard(props) {
   return (
-    <div className="card">
-      <Grid container direction={props.index % 2 == 0 ? "row" : "row-reverse"}>
-        <Grid xs={12} sm={4}>
-          <img
-            className="card-img-top"
-            src={props.projectObj.image}
-            alt="Card cap"
-          />
-        </Grid>
-        <Grid xs={12} sm={8}>
+    <div className="ProjectCard__Card">
+      <img
+        className="ProjectCard__Image"
+        src={props.projectObj.image}
+        alt="Card cap"
+      />
+
+      {/* <Grid xs={12} sm={8}>
           <div className="">
             <h5>{props.projectObj.title}</h5>
             <p className="">{props.projectObj.description}</p>
@@ -59,10 +57,9 @@ function Portfolio(props) {
               </Grid>
             </Grid>
           </div>
-        </Grid>
-      </Grid>
+        </Grid> */}
     </div>
   );
 }
 
-export default Portfolio;
+export default ProjectCard;

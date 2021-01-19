@@ -31,5 +31,38 @@
         "technologyUsed": "HTML, CSS (Bootstrap), Javascript, APIs",
         "repo": "https://github.com/jacksolaro/CityScoop",
         "deployed": "https://jacksolaro.github.io/CityScoop/"
+    },
+    {
+        "id": "2",
+        "image": "/portfolio_images/portfolio_trivia_app.png",
+        "title": "Trivia Application",
+        "description": "Try out this trivia application that I made from scratch using Javascript and Bootstrap!",
+        "type": "Individual",
+        "contribution": "All",
+        "technologyUsed": "HTML, CSS, Bootstrap, Javascript, jQuery",
+        "repo": "https://github.com/jacksolaro/trivia",
+        "deployed": "https://jacksolaro.github.io/trivia/"
+    },
+    {
+        "id": "3",
+        "image": "/portfolio_images/portfolio_planner_app.png",
+        "title": "Planner Application",
+        "description": "What's the plan? Find out in this application that I built using jquery and Bootstrap!",
+        "type": "Assignment",
+        "contribution": "Logic",
+        "technologyUsed": "HTML, CSS, Javascript, jQuery",
+        "repo": "https://github.com/jacksolaro/planner-app",
+        "deployed": "https://jacksolaro.github.io/planner-app/"
+    },
+    {
+        "id": "4",
+        "image": "/portfolio_images/portfolio_jacksburgers.jpg",
+        "title": "Jack's Burgers",
+        "description": "A fully functioning CRUD application, deployed on Heroku and using a mySQL database. Built with node packages including express and mysql!",
+        "type": "Individual",
+        "contribution": "All",
+        "technologyUsed": "HTML, CSS, Javascript, jQuery, node.js, Express, mySQL, sequelize, Heroku",
+        "repo": "https://github.com/jacksolaro/burger-crud",
+        "deployed": "https://jacksburgers.herokuapp.com/"
     }
 ]

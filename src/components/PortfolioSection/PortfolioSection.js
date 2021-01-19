@@ -8,7 +8,7 @@ function PortfolioSection() {
   return (
     <div className="PortfolioSection__Container">
       <Container maxWidth="lg">
-        <Grid container spacing={3} alignItems="center">
+        <Grid container spacing={3} alignItems="flex-start">
           <Grid item xs={12} align="center">
             <h2>
               <strong>RECENT WORK</strong>

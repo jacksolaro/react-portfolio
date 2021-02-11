@@ -1,6 +1,4 @@
 .bio__container {
-  padding: 30px 10px;
-  margin-bottom: 50px;
   z-index: 4;
   background-color: white;
 }
@@ -24,8 +22,7 @@
 
 @media screen and (min-width: 768px) {
   .bio__container {
-    padding: 30px 20px;
-    margin-bottom: 50px;
+    padding: 30px 20px 50px 20px;
   }
   .bio__details {
     width: 100%;
@@ -35,8 +32,7 @@
 }
 @media screen and (min-width: 992px) {
   .bio__container {
-    padding: 30px 30px;
-    margin-bottom: 50px;
+    padding: 30px 30px 50px 30px;
   }
   .bio__details {
     width: 100%;
@@ -46,8 +42,7 @@
 }
 @media screen and (min-width: 1200px) {
   .bio__container {
-    padding: 30px 50px;
-    margin-bottom: 50px;
+    padding: 30px 50px 80px 50px;
   }
   .bio__details {
     width: 100%;

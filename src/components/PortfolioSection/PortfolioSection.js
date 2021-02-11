@@ -24,9 +24,9 @@ function PortfolioSection() {
               ></ProjectCard>
             </Grid>
           ))}
-          <Box textAlign="center" style={{ width: "100%" }}>
+          {/* <Box textAlign="center" style={{ width: "100%" }}>
             <Button>See More</Button>
-          </Box>
+          </Box> */}
         </Grid>
       </Container>
     </div>

@@ -5,7 +5,8 @@ import { Grid, Button } from "@material-ui/core/";
 
 function Portfolio(props) {
   return (
-    <div className="card">
+    <div className="projectCard card">
+      <h2 className="projectCard__Title">{props.projectObj.title}</h2>
       <Grid container direction={props.index % 2 == 0 ? "row" : "row-reverse"}>
         <Grid xs={12} sm={4}>
           <img
@@ -15,17 +16,16 @@ function Portfolio(props) {
           />
         </Grid>
         <Grid xs={12} sm={8}>
-          <div className="">
-            <h5>{props.projectObj.title}</h5>
+          <div className="projectCard__Details">
             <p className="">{props.projectObj.description}</p>
             <p>
               <strong>Project Type: </strong>
               {props.projectObj.type}
             </p>
-            <p>
-              <strong>Project Type: </strong>
+            {/* <p>
+              <strong>Project Index: </strong>
               {props.index}
-            </p>
+            </p> */}
             <p>
               <strong>My Contribution: </strong>
               {props.projectObj.contribution}

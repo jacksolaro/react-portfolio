@@ -4,11 +4,11 @@
         "image": "/portfolio_images/portfolio_derby.png",
         "title": "Derby Leagues",
         "description": "After losing just about every season of Fantasy Football that I have ever played, I decided there has to be an application that allows me to compete in something that I have extensive knowledge of … like reality tv shows. This was the catalyst for me to create Derby Leagues, an online platform where you can go head-to-head against friends in a fantasy sports style competition but for hit TV shows.",
-        "type": "Group",
-        "contribution": "Front End Controller Logic, Handlebars, CSS (Bulma), UX, Logo",
-        "technologyUsed": "HTML, CSS (Bulma), handlebars, Javascript, jQuery, Express, node.js, mySQL, sequelize, Heroku, bcrypt",
-        "repo": "https://github.com/jacksolaro/Personality-Quiz",
-        "deployed": "https://personify-personality-quiz.herokuapp.com/"
+        "type": "Individual",
+        "contribution": "Everything",
+        "technologyUsed": "React, Google Firebase, Google Authentication, Google Firestore, HTML, CSS, Javascript, JSX",
+        "repo": "https://github.com/jacksolaro/fantasy-drag-race-frontend",
+        "deployed": "https://derby-584f8.web.app/"
     },
     {
         "id": "0",

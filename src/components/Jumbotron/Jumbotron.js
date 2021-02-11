@@ -3,7 +3,23 @@ import "./Jumbotron.css";
 
 function Jumbotron(props) {
   return (
-    <div>
+    <div className="Jumbotron__Container">
+      <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">.</div>
+        <div class="snowflake">●</div>
+        <div class="snowflake">.</div>
+        <div class="snowflake">●</div>
+        <div class="snowflake">⦁</div>
+        <div class="snowflake">.</div>
+        <div class="snowflake">●</div>
+        <div class="snowflake">.</div>
+        <div class="snowflake">●</div>
+        <div class="snowflake">.</div>
+        <div class="snowflake">●</div>
+        <div class="snowflake">⦁</div>
+        <div class="snowflake">.</div>
+        <div class="snowflake">●</div>
+      </div>
       <div
         className="jumbotron__main"
         style={{ backgroundImage: `url(${props.image})` }}

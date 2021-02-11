@@ -1,4 +1,5 @@
 .PortfolioSection__Container {
   background-color: lightgray;
   padding: 100px;
+  z-index: 4;
 }

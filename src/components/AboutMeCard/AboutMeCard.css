@@ -1,6 +1,8 @@
 .bio__container {
   padding: 30px 10px;
   margin-bottom: 50px;
+  z-index: 4;
+  background-color: white;
 }
 
 .bio__details {

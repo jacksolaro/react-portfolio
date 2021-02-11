@@ -1,3 +1,10 @@
 .contact-container {
   min-height: 65vh;
+  padding: 50px;
+  background-color: white;
+}
+
+.contactCard {
+  width: 85vw;
+  margin: 0 auto;
 }

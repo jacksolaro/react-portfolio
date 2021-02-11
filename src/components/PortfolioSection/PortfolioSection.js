@@ -1,4 +1,4 @@
-import { Button, Container, Grid, Typography } from "@material-ui/core";
+import { Button, Container, Grid, Typography, Box } from "@material-ui/core";
 import React from "react";
 import projectsArr from "../../utils/projects.json";
 import ProjectCard from "../../components/ProjectCard/ProjectCard.js";
@@ -24,7 +24,9 @@ function PortfolioSection() {
               ></ProjectCard>
             </Grid>
           ))}
-          <Button>See More</Button>
+          <Box textAlign="center" style={{ width: "100%" }}>
+            <Button>See More</Button>
+          </Box>
         </Grid>
       </Container>
     </div>

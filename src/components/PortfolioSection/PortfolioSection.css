@@ -1,5 +1,21 @@
 .PortfolioSection__Container {
   background-color: lightgray;
-  padding: 100px;
+  padding: 20px;
   z-index: 4;
+}
+
+@media screen and (min-width: 768px) {
+  .PortfolioSection__Container {
+    padding: 30px 20px 50px 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .PortfolioSection__Container {
+    padding: 30px 30px 50px 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .PortfolioSection__Container {
+    padding: 30px 50px 80px 50px;
+  }
 }

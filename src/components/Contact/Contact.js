@@ -55,7 +55,7 @@ function Contact() {
             <p>
               <DescriptionIcon />
               <strong>Resume: </strong>
-              <a target="_blank" href="Assets/files/jack-solaro-resume.pdf">
+              <a target="_blank" href="src\images\Jack_Solaro_Resume.pdf">
                 Jack Solaro Resume
               </a>
             </p>

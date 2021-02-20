@@ -7,7 +7,7 @@ import DescriptionIcon from "@material-ui/icons/Description";
 function Footer() {
   return (
     // <!-- Footer -->
-    <footer className="">
+    <footer id="footer" className="">
       <div className="footer-accent"></div>
       {/* <div className="Footer__Contents"> */}
       <h2 className="Footer__Logo">
@@ -24,10 +24,10 @@ function Footer() {
         <a href="/">
           <i class="Footer__Icon fas fa-file-pdf fa-2x"></i>
         </a>
-        <a href="/">
+        <a href="tel:3103184555">
           <i class="Footer__Icon fas fa-phone-square fa-2x"></i>
         </a>
-        <a href="/">
+        <a href="mailto:jacksolaro@gmail.com">
           <i class="Footer__Icon fas fa-envelope-square fa-2x"></i>
         </a>
       </div>

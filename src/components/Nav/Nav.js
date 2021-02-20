@@ -52,7 +52,7 @@ function Nav() {
               <Link to="/portfolio" className="drawer__item">
                 Portfolio
               </Link>
-              <Link to="/contact" className="drawer__item">
+              <Link to="/#Footer" className="drawer__item">
                 Contact
               </Link>
             </ul>
@@ -67,9 +67,9 @@ function Nav() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/contact">
+            <a className="nav-link" href="#footer">
               CONTACT
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/portfolio">

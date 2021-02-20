@@ -15,13 +15,21 @@ function Footer() {
       </h2>
 
       <div>
-        <a href="/">
+        <a
+          href="https://github.com/jacksolaro"
+          rel="noreferrer"
+          target="_blank"
+        >
           <i className="Footer__Icon fab fa-github fa-2x"></i>
         </a>
-        <a href="/">
+        <a
+          href="https://www.linkedin.com/in/jacksolaro/"
+          rel="noreferrer"
+          target="_blank"
+        >
           <i className="Footer__Icon fab fa-linkedin fa-2x"></i>
         </a>
-        <a href="/">
+        <a target="_blank" href="src\images\Jack_Solaro_Resume.pdf">
           <i class="Footer__Icon fas fa-file-pdf fa-2x"></i>
         </a>
         <a href="tel:3103184555">

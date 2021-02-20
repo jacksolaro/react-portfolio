@@ -3,7 +3,7 @@ FOOTER STYLING
 ======================================== */
 
 footer {
-  height: 20vh;
+  height: 25vh;
   width: 100%;
   bottom: 0;
   color: white;
@@ -34,7 +34,7 @@ footer {
 
 .Footer__Logo {
   margin: 0;
-  padding: 10px 0px;
+  padding: 15px 0px 5px 0px;
 }
 
 .Footer__Copyright {

@@ -32,11 +32,17 @@ function Footer() {
         <a target="_blank" href="src\images\Jack_Solaro_Resume.pdf">
           <i class="Footer__Icon fas fa-file-pdf fa-2x"></i>
         </a>
+      </div>
+      <div>
         <a href="tel:3103184555">
-          <i class="Footer__Icon fas fa-phone-square fa-2x"></i>
+          {/* <i class="Footer__Icon fas fa-phone-square fa-2x"></i> */}
+          (310)318-4555
         </a>
+      </div>
+      <div>
         <a href="mailto:jacksolaro@gmail.com">
-          <i class="Footer__Icon fas fa-envelope-square fa-2x"></i>
+          {/* <i class="Footer__Icon fas fa-envelope-square fa-2x"></i> */}
+          jacksolaro@gmail.com
         </a>
       </div>
 

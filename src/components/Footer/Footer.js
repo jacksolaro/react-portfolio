@@ -3,6 +3,7 @@ import "./Footer.css";
 import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
 import DescriptionIcon from "@material-ui/icons/Description";
+import resumeLink from "../../images/Jack_Solaro_Resume.pdf";
 
 function Footer() {
   return (
@@ -29,7 +30,7 @@ function Footer() {
         >
           <i className="Footer__Icon fab fa-linkedin fa-2x"></i>
         </a>
-        <a target="_blank" href="src\images\Jack_Solaro_Resume.pdf">
+        <a target="_blank" href={resumeLink}>
           <i class="Footer__Icon fas fa-file-pdf fa-2x"></i>
         </a>
       </div>

@@ -15,11 +15,21 @@ function Footer() {
       </h2>
 
       <div>
-        <i className="Footer__Icon fab fa-github fa-2x"></i>
-        <i className="Footer__Icon fab fa-linkedin fa-2x"></i>
-        <i class="Footer__Icon fas fa-file-pdf fa-2x"></i>
-        <i class="Footer__Icon fas fa-phone-square fa-2x"></i>
-        <i class="Footer__Icon fas fa-envelope-square fa-2x"></i>
+        <a href="/">
+          <i className="Footer__Icon fab fa-github fa-2x"></i>
+        </a>
+        <a href="/">
+          <i className="Footer__Icon fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="/">
+          <i class="Footer__Icon fas fa-file-pdf fa-2x"></i>
+        </a>
+        <a href="/">
+          <i class="Footer__Icon fas fa-phone-square fa-2x"></i>
+        </a>
+        <a href="/">
+          <i class="Footer__Icon fas fa-envelope-square fa-2x"></i>
+        </a>
       </div>
 
       <div className="Footer__Copyright">Copyright&copy; 2020 Jack Solaro</div>

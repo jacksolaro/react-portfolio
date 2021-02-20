@@ -3,7 +3,7 @@ FOOTER STYLING
 ======================================== */
 
 footer {
-  height: 30vh;
+  height: 20vh;
   width: 100%;
   bottom: 0;
   color: white;
@@ -25,6 +25,11 @@ footer {
 
 .Footer__Icon {
   padding: 5px;
+  color: white;
+}
+
+.Footer__Icon:hover {
+  color: rgba(235, 126, 62, 1);
 }
 
 .Footer__Logo {

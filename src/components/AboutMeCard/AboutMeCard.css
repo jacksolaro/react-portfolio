@@ -6,11 +6,12 @@
 .bio__details {
   width: 100%;
   padding: 10%;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .bio__portrait {
   width: 75%;
+  border-radius: 50px;
 }
 
 .about__buttons__block {
@@ -27,7 +28,7 @@
   .bio__details {
     width: 100%;
     padding: 5%;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 992px) {
@@ -37,17 +38,17 @@
   .bio__details {
     width: 100%;
     padding: 10%;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 1200px) {
   .bio__container {
-    padding: 30px 50px 80px 50px;
+    padding: 30px 200px 80px 200px;
   }
   .bio__details {
     width: 100%;
     padding: 10%;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .about__buttons__block {
     margin: auto auto;

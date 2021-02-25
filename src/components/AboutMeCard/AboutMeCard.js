@@ -14,26 +14,23 @@ function AboutMeCard() {
           <hr />
         </Grid>
         <Grid item xs={12} md={4} align="center">
-          <img
-            src={headshot}
-            alt="jack headshot"
-            className="bio__portrait rounded"
-          />
+          <img src={headshot} alt="jack headshot" className="bio__portrait " />
         </Grid>
         <Grid item sm={12} md={8}>
           <div className="bio__details">
-            <h3>Professionally:</h3>
+            <h2>Jack Solaro</h2>
+            <h4>FULL STACK DEVELOPER</h4>
             <p>
-              I am a Web Developer with UX and Project/Program Management
-              experience. My undergrad is in Business Information Systems from
-              the University of Washington. I take pride in developing creative
-              solutions to complex problems!
+              I am a Full Stack Developer with 2.5 years of technology program
+              management in the staffing industry. I have education in Business
+              Information Systems from the University of Washington and UX
+              Foundations. I take pride in developing creative solutions to
+              complex problems!
             </p>
-            <h3>Personally: </h3>
             <p>
-              Outside of work, I am an avid photographer. My work varies from
-              fashion and lifestyle to conceptual and surrealistic portraiture.
-              I love to take an idea from a concept to reality!
+              Outside of work, I am an hobbyist photographer - I've even won a
+              couple of awards for my photogaphy! I love to take an idea from a
+              concept to reality!
             </p>
             <br />
             <div className="about__buttons__block">
@@ -41,7 +38,7 @@ function AboutMeCard() {
                 Portfolio
               </a>
 
-              <a href="/contact" className="btn btn-dark ml-1">
+              <a href="#footer" className="btn btn-dark ml-1">
                 Contact Me
               </a>
             </div>

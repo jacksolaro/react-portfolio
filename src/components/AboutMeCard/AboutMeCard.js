@@ -34,11 +34,11 @@ function AboutMeCard() {
             </p>
             <br />
             <div className="about__buttons__block">
-              <a href="/portfolio" className="btn btn-dark mr-1">
+              <a href="#portfolio" className="btn btn-dark mr-1">
                 Portfolio
               </a>
 
-              <a href="#footer" className="btn btn-dark ml-1">
+              <a href="#contact" className="btn btn-dark ml-1">
                 Contact Me
               </a>
             </div>

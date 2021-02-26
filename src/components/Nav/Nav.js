@@ -49,12 +49,12 @@ function Nav() {
               <Link to="/" className="drawer__item">
                 Home
               </Link>
-              <Link to="/portfolio" className="drawer__item">
+              <a href="#portfolio" className="drawer__item">
                 Portfolio
-              </Link>
-              <Link to="/#Footer" className="drawer__item">
+              </a>
+              <a href="#contact" className="drawer__item">
                 Contact
-              </Link>
+              </a>
             </ul>
           </div>
         </Drawer>
@@ -62,14 +62,14 @@ function Nav() {
         {/* <MenuIcon className="nav-hamburger" onClick={openNav}></MenuIcon> */}
         <ul>
           <li className="nav-item">
-            <a className="nav-link" href="#footer">
+            <a className="nav-link" href="#contact">
               CONTACT
             </a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/portfolio">
+            <a className="nav-link" href="#portfolio">
               PORTFOLIO
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/">

@@ -6,7 +6,7 @@ import "./PortfolioSection.css";
 
 function PortfolioSection() {
   return (
-    <div className="PortfolioSection__Container">
+    <section id="portfolio" className="PortfolioSection__Container">
       <Container maxWidth="lg">
         <Grid container spacing={3} alignItems="flex-start">
           <Grid item xs={12} align="center">
@@ -29,7 +29,7 @@ function PortfolioSection() {
           </Box> */}
         </Grid>
       </Container>
-    </div>
+    </section>
   );
 }
 

@@ -8,7 +8,7 @@ import resumeLink from "../../images/Jack_Solaro_Resume.pdf";
 function Footer() {
   return (
     // <!-- Footer -->
-    <footer id="footer" className="">
+    <footer id="contact" className="">
       <div className="footer-accent"></div>
       {/* <div className="Footer__Contents"> */}
       <h2 className="Footer__Logo">

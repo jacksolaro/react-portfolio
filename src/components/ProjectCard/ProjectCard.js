@@ -28,6 +28,7 @@ function ProjectCard(props) {
           {props.projectObj.technologyUsed}
         </p>
       </div>
+
       <div className="ProjectCard__Buttons">
         <Grid container spacing={0} justify="center" alignItems="flex-end">
           <Grid item xs={6} align="center">

@@ -22,7 +22,10 @@ function StrengthSection() {
               <hr />
               <p className="strength__subtitle">
                 I am very passionate about the{" "}
-                <a href="https://www.gallup.com/cliftonstrengths/en/252137/home.aspx">
+                <a
+                  href="https://www.gallup.com/cliftonstrengths/en/252137/home.aspx"
+                  style={{ color: "black" }}
+                >
                   CliftonStrengths Assessment
                 </a>{" "}
                 provided by Gallup. CliftonStrengths is a strengths assessment

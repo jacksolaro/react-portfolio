@@ -12,8 +12,8 @@ function ProjectCard(props) {
         alt="Card cap"
       />
 
-      <div className="">
-        <h5>{props.projectObj.title}</h5>
+      <div className="ProjectCard__Details">
+        <h4 style={{ fontWeight: "bold" }}>{props.projectObj.title}</h4>
         <p className="">{props.projectObj.description}</p>
         <p>
           <strong>Project Type: </strong>
